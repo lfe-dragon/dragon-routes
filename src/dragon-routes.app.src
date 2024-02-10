@@ -1,0 +1,21 @@
+{application, 'dragon-routes', [
+    {description, "A general-purpose, reitit-inspired LFE routing library"},
+    {vsn, "0.0.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env,[]},
+    {modules, []},
+
+    %% Package metadata:
+    {pkg_name, dragon_routes},
+    {maintainers, ["Duncan McGreggor"]},
+    {licenses, ["Apache-2"]},
+    {links, [
+        {"GitHub", "https://github.com/lfe-dragon/dragon-routes"},
+        {"Hex", "https://hex.pm/packages/dragon_routes"}
+    ]},
+    {exclude_files, ["priv/*"]}
+ ]}.
