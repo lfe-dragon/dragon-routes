@@ -1,4 +1,5 @@
 (defmodule drt
+  (moduledoc "This is some sample documentation ...")
   (export
    (my-fun 0)))
 
